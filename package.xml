@@ -4,17 +4,23 @@
   <name>ros2_tf2</name>
   <version>0.0.0</version>
   <description>Assignment: ROS2 TF2 Transforms</description>
+
   <maintainer email="student@university.edu">Student Name</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- TODO: Add dependencies for rclcpp, tf2_ros, geometry_msgs -->
+  <!-- Required Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
 
+  <!-- Test Dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
   </export>
+
 </package>
